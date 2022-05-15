@@ -54,7 +54,7 @@
 
 ## 二、项目的历史轨迹分析
 
-&emsp; &emsp;我们对项目mozilla/send创建 - 归档 期间的数据分析如下，代码详情见 analysis.ipynb
+&emsp; &emsp;我们对项目mozilla/send创建 - 归档 期间的数据分析如下，代码详情见 send.ipynb
 
 1. 每月新增 Star 和 Frok 的个数
     
