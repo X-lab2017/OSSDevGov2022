@@ -24,9 +24,7 @@ Spring可以让用户触摸的元素能反馈出强有力弹动效果；Decay则
 
 该项目的技术类型如下：
 
-![image-20220516092128319](https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516092128319.png)
-
-<img src="C:\Users\72767\AppData\Roaming\Typora\typora-user-images\image-20220516092128319.png" alt="image-20220516092128319" style="zoom: 50%;" />
+<img src="https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516030214712.png" alt="image-20220516030214712" style="zoom: 50%;" />
 
 ### 1.2 版本发布历史
 
@@ -58,7 +56,7 @@ Pop项目共58位贡献者，主要的四名贡献者是Kimon Tsinteris、Adam B
 
 区域：雅典(athens)，目前居住于Hawaii State,U.S
 
-<img src="C:\Users\72767\AppData\Roaming\Typora\typora-user-images\image-20220516044927033.png" alt="image-20220516044927033" style="zoom: 25%;" />
+<img src="https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516044927033.png" alt="image-20220516044927033" style="zoom: 25%;" />
 
 ​		Kimon Tsinteris最初是苹果公司的高级工程师，帮助创造了iPhone和iPad，后来加入了Push Pop Press，成为Push Pop Press的联合创始人之一。
 
@@ -72,7 +70,7 @@ Pop项目共58位贡献者，主要的四名贡献者是Kimon Tsinteris、Adam B
 
  Adam Bell是该项目的次要贡献者，他是Netflix的一名iOS工程师。
 
-![image-20220516024051955](C:\Users\72767\AppData\Roaming\Typora\typora-user-images\image-20220516024051955.png)
+![image-20220516024051955](https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516024051955.png)
 
 - ####  Grant Paul 
 
@@ -80,7 +78,7 @@ Pop项目共58位贡献者，主要的四名贡献者是Kimon Tsinteris、Adam B
 
 国家：U.S.
 
-![image-20220516024747107](C:\Users\72767\AppData\Roaming\Typora\typora-user-images\image-20220516024747107.png)
+![image-20220516024747107](https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516024747107.png)
 
 ### 1.4 CI/CD的使用
 
@@ -98,7 +96,7 @@ Pop项目共58位贡献者，主要的四名贡献者是Kimon Tsinteris、Adam B
 
 `.travis.yml`文件的内容如下：
 
-![image-20220516082152120](C:\Users\72767\AppData\Roaming\Typora\typora-user-images\image-20220516082152120.png)
+![image-20220516082152120](https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516082152120.png)
 
 该配置文件定义了如下操作：
 
@@ -133,6 +131,10 @@ Pop项目共58位贡献者，主要的四名贡献者是Kimon Tsinteris、Adam B
 1、[Facebook 美学转变：从收购 Push Pop Press 开始 | 爱范儿 (ifanr.com)](https://www.ifanr.com/48315)介绍了pop的背景
 
 2、[iOS 走进Facebook POP的世界 - 简书 (jianshu.com)](https://www.jianshu.com/p/0bc2127692e5)介绍了pop的使用
+
+## 二、项目历史轨迹分析
+
+1、见 facebook-pop.ipynb 文件
 
 ## 三、归档原因
 
