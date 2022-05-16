@@ -24,6 +24,8 @@ Spring可以让用户触摸的元素能反馈出强有力弹动效果；Decay则
 
 该项目的技术类型如下：
 
+![image-20220516092128319](https://github.com/Vesperrrr/OSSDevGov2022/blob/main/9-pop/image-20220516092128319.png)
+
 <img src="C:\Users\72767\AppData\Roaming\Typora\typora-user-images\image-20220516092128319.png" alt="image-20220516092128319" style="zoom: 50%;" />
 
 ### 1.2 版本发布历史
