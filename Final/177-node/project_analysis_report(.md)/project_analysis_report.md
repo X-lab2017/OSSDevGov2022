@@ -7,7 +7,7 @@
 
 小组成员及分工：
 
-* 刘丹琪 51215903016，
+* 刘丹琪 51215903016，负责任务一
 * 刘晟驰 52215903004，负责任务二
 * 梅文娟 51215903013，负责任务三
 
@@ -15,17 +15,103 @@
 
 ### 1. 项目基本信息
 
+​	Node.js 诞生于 2009 年，由 Joyent 的员工 [Ryan Dahl](https://github.com/ry) 开发而成，之后 Joyent 公司一直扮演着 Node.js 孵化者的角色。由于诸多原因，Ryan 在2012年离开社区，随后在2015年由于 Node 贡献者对 es6 新特性集成问题的分歧，导致分裂出iojs，并由 iojs 发布1.0、2.0和3.0版本。由于 iojs 的分裂最终促成了2015年Node基金会的成立，并顺利发布了4.0版本。Node.js基金会的创始成员包括 Google、Joyent、IBM、Paypal、微软、Fidelity 和 Linux基金会，创始成员将共同掌管过去由 Joyent 一家企业掌控的 Node.js 开源项目。此后，Node.js 基金会发展非常好，稳定的发布5、6、7、8等版本。
 
+​	Node.js 不是一门语言也不是框架，它只是基于 Google V8 引擎的 JavaScript 运行时环境，同时结合 Libuv 扩展了 JavaScript 功能，使之支持 io、fs 等只有语言才有的特性，使得 JavaScript 能够同时具有 DOM 操作(浏览器)和 I/O、文件读写、操作数据库(服务器端)等能力，是目前最简单的全栈式语言。早在2007年，Jeff Atwood 就提出了著名的 `Atwood定律`：任何能够用 JavaScript 实现的应用系统，最终都必将用 JavaScript 实现。
 
 ### 2. 版本发布历史
 
+node.js/node共发布了296个版本，其中：
 
+第一个版本（v0.4.3）发布的时间是2011年3月19日
+
+最后一个版本（v18.4.0）发布的时间是2022年6月16日
 
 ### 3. 主要贡献者的构成（国家、区域和组织等）
 
+Node.js项目管理的人员分为以下几类：
 
+- Triagers：Triagers访问在[nodejs/node](https://github.com/nodejs/node)和[nodejs/help](https://github.com/nodejs/help)库中新发起的issues。Node.js Triagers的github团队是@nodejs/issue-triage。Triagers被赋予 "Triage"的GitHub角色并有以下能力：
+  - 标记issus和pull requests
+  - 评论、关闭和重新打开issus和pull request
+- Collaborators：核心的Collaborators维护[nodejs/node](https://github.com/nodejs/node)库。Node.js Collaborators的github团队是@nodejs/Collaborators。Collaborators和non-Collaborators都可以提出对Node.js源代码进行更改。提出此类更改的机制是在GitHub pull requests，Collaborators审查和合并pull requests。两个Collaborators必须一起批准一个pull requests，然后pull requests才能落地。（如果pull requests已打开超过 7 天，则一个Collaborator批准就足够了。）批准pull request表明Collaborators接受更改，并且必须由不是变更作者的Collaborators批准。如果Collaborators反对提议的变更，则变更无法落地。 例外情况是，如果TSC（Technical Steering Committee）不顾反对而投票批准更改。通常，讨论或进一步的改变会导致Collaborators消除他们的反对意见，所以一般不需要TSC的参与。Collaborators有以下能力：
+  - 提交和访问[nodejs/node](https://github.com/nodejs/node)库
+  - 访问Node.js的持续集成jobs
+- Technical Steering Committee：一部分Collaborators组成了Technical Steering Committee (TSC)。TSC对该项目拥有最终权力，包括：
+  - 技术方向
+  - 项目治理
+  - contribution政策
+  - GitHub存储库托管
+  - 行为准则
+  - 维护Collaborators名单
+
+Node.js 项目一共有3057位贡献者，下面介绍一下前5位贡献者：
+
+#### 第一位：Rich Trott
+
+贡献情况：commit3029次，增加 1,100,753行代码，减去1,134,296行代码
+
+id：Trott
+
+区域：San Francisco, CA
+
+职位：Node.js的TSC的一员，并在加利福尼亚大学工作
+
+#### 第二位：Ryan Dahl
+
+贡献情况：commit2941次，增加3,430,075行代码，减去1,788,533行代码
+
+id：ry
+
+区域：New York City
+
+公司：Deno Land
+
+#### 第三位：Ben Noordhuis
+
+贡献情况：commit2226次，增加1,633,844行代码，减去1,204,604行代码
+
+id：bnoordhuis
+
+区域：The Netherlands
+
+#### 第四位：Anna Henningsen
+
+贡献情况：commit1560次，增加167,969行代码，减去152,277行代码
+
+id：addaleax
+
+区域：Germany
+
+公司：mongoDB
+
+#### 第五位：isaacs
+
+贡献情况：commit1499次，增加751,042行代码，减去537,277行代码
+
+id：isaacs
+
+区域：Oakland CA
+
+公司：Tier.run, Inc.
 
 ### 4. CI/CD 的使用
+
+CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交付应用的方法。CI/CD 的核心概念是持续集成、持续交付和持续部署。本项目中，使用Jenkins进行持续集成。Jenkins是一个开源的、提供友好操作界面的持续集成工具，起源于Hudson（Hudson是商用的），主要用于持续、自动的构建/测试软件项目、监控外部任务的运行。Jenkins用Java语言编写，可在Tomcat等流行的servlet容器中运行，也可独立运行。通常与版本管理工具(SCM)、构建工具结合使用。常用的版本控制工具有SVN、GIT，构建工具有Maven、Ant、Gradle。
+
+​	有用的Jenkins CI jobs：
+
+- [`node-test-pull-request`](https://ci.nodejs.org/job/node-test-pull-request/)是测试pull request的job。在所有受支持的平台上运行*build-ci*和*test-ci*。
+- [`citgm-smoker`](https://ci.nodejs.org/job/citgm-smoker/) 使用 [`CitGM`](https://github.com/nodejs/citgm)允许你在大量的通用模块上运行*npm install && npm*测试，可以检查新的代码是否会给整个系统带来破坏。
+-  [`node-stress-single-test`](https://ci.nodejs.org/job/node-stress-single-test/)可以在特定平台上反复运行一组测试，用它来检查测试是否可靠。
+- [`node-test-commit-v8-linux`](https://ci.nodejs.org/job/node-test-commit-v8-linux/)运行标准V8测试。在Node.js 中更新V8或在V8上浮动新补丁时运行它。
+- [`node-test-commit-custom-suites-freestyle`](https://ci.nodejs.org/job/node-test-commit-custom-suites-freestyle/)支持自定义测试套件和参数。它可以执行其他CI测试运行中未使用的测试套件（例如*Internet*或*pummel*目录中的测试）。当其他CI测试运行时未使用标志（例如 --worker），依然可以确保测试通过。 
+
+### 5. Node.js的应用
+
+​	目前 Node.js 在大部分领域都占有一席之地，尤其是 I/O 密集型的，比如 Web 开发，微服务，前端构建等。不少大型网站都是使用 Node.js 作为后台开发语言的，用的最多的就是使用Node.js做前端渲染和架构优化，比如 [淘宝](https://www.taobao.com/) 双十一、[去哪儿网](https://www.qunar.com/) 的 PC 端核心业务等。另外，有不少知名的前端库也是使用 Node.js 开发的，比如，[Webpack](https://github.com/webpack/webpack) 是一个强大的打包器，[React](https://github.com/facebook/react)/[Vue](https://github.com/vuejs/vue) 是成熟的前端组件化框架。
+
+​	Node.js通常被用来开发低延迟的网络应用，也就是那些需要在服务器端环境和前端实时收集和交换数据的应用（API、即时聊天、微服务）。阿里巴巴、腾讯、Qunar、百度、PayPal、道琼斯、沃尔玛和 LinkedIn 都采用了 Node.js 框架搭建应用。此外， Node.js 编写的包管理器 npm 已成为开源包管理了领域最好的生态，直接到2017年10月份，有模块超过47万，每周下载量超过32亿次，每个月有超过700万开发者使用npm。
 
 
 
