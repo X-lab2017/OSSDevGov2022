@@ -1,6 +1,26 @@
 # microsoft/vscode项目报告
 ## 1 项目的基本背景和发展历程介绍
-
+### 1.1项目介绍
+![](https://user-images.githubusercontent.com/35271042/118224532-3842c400-b438-11eb-923d-a5f66fa6785a.png)
+- vscode是一款由微软发布的轻量级代码编辑器。
+- 它提供全面的代码编辑、导航和理解支持以及轻量级调试、丰富的可扩展性模型以及与现有工具的轻量级集成。
+- 项目地址：https://github.com/microsoft/vscode
+### 1.2技术类型
+![](https://cdn.nlark.com/yuque/0/2022/png/28782610/1656500977199-05fcb663-9142-4376-8d59-0c5129c5b455.png)
+- 该项目主要由typescript实现。
+### 1.3历史版本发布
+![](https://cdn.nlark.com/yuque/0/2022/png/28782610/1656500977127-9976adaf-dbc7-4940-b59d-43077cb78e2c.png)
+![](https://cdn.nlark.com/yuque/0/2022/png/28782610/1656500977412-0a8bb202-4b4f-4a48-8462-42030bb27fb1.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+- 目前为止已发布70个版本。
+- 最行版本为1.68.1。
+### 1.4主要贡献者构成
+![](https://cdn.nlark.com/yuque/0/2022/png/28782610/1656500977320-7798977a-c28d-4d43-8d49-0fc4cdb8ebb9.png?x-oss-process=image%2Fresize%2Cw_724%2Climit_0)
+- 目前共有1661位代码贡献者。
+- 主要代码贡献者来自于欧洲，其中瑞士的贡献者较多。
+### 1.5CI/CD使用
+![](https://cdn.nlark.com/yuque/0/2022/png/28782610/1656500977525-d62d0afc-3988-40b9-96bd-2f10fe6bbb0b.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+- 目前共跑流水线906934次。
+- 成功708756次，失败12174次。
 ## 2 项目的历史轨迹分析
 ### 2.1 每月新增 Star 和 Frok 的个数
 ![](https://cdn.nlark.com/yuque/0/2022/png/25380704/1656414236607-0e19214a-7cae-4bcc-9926-d4e339ad6315.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
