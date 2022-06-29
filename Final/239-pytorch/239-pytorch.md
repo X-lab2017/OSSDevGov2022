@@ -36,32 +36,16 @@ Pytorch共计发布了39个[releases](https://github.com/pytorch/pytorch/release
 - 最后一个releases（v1.11.0 Pytorch 1.11）的发布时间是2022年3月11日
 
 Pytorch共计有24个stable版本和一个candidate：
+| [v1.12 (release candidate)](https://pytorch.org/docs/1.12/) |                                           |                                           |                                             |
+  | ----------------------------------------------------------- | ----------------------------------------- | ----------------------------------------- | ------------------------------------------- |
+  | [v1.11 (stable release)](https://pytorch.org/docs/1.11/)    | [v1.10](https://pytorch.org/docs/1.10/)   | [v1.9.1](https://pytorch.org/docs/1.9.1/) | [v1.9.0](https://pytorch.org/docs/1.9.0/)   |
+  | [v1.8.1](https://pytorch.org/docs/1.8.1/)                   | [v1.8.0](https://pytorch.org/docs/1.8.0/) | [v1.7.1](https://pytorch.org/docs/1.7.1/) | [v1.7.0](https://pytorch.org/docs/1.7.0/)   |
+  | [v1.6.0](https://pytorch.org/docs/1.6.0/)                   | [v1.5.1](https://pytorch.org/docs/1.5.1/) | [v1.5.0](https://pytorch.org/docs/1.5.0/) | [v1.4.0](https://pytorch.org/docs/1.4.0/)   |
+  | [v1.3.1](https://pytorch.org/docs/1.3.1/)                   | [v1.3.0](https://pytorch.org/docs/1.3.0/) | [v1.2.0](https://pytorch.org/docs/1.2.0/) | [v1.1.0](https://pytorch.org/docs/1.1.0/)   |
+  | [v1.0.1](https://pytorch.org/docs/1.0.1/)                   | [v1.0.0](https://pytorch.org/docs/1.0.0/) | [v0.4.1](https://pytorch.org/docs/0.4.1/) | [v0.4.0](https://pytorch.org/docs/0.4.0/)   |
+  | [v0.3.1](https://pytorch.org/docs/0.3.1/)                   | [v0.3.0](https://pytorch.org/docs/0.3.0/) | [v0.2.0](https://pytorch.org/docs/0.2.0/) | [v0.1.12](https://pytorch.org/docs/0.1.12/) |
 
-- [v1.12 (release candidate)](https://pytorch.org/docs/1.12/)
-- [v1.11 (stable release)](https://pytorch.org/docs/1.11/)
-- [v1.10](https://pytorch.org/docs/1.10/)
-- [v1.9.1](https://pytorch.org/docs/1.9.1/)
-- [v1.9.0](https://pytorch.org/docs/1.9.0/)
-- [v1.8.1](https://pytorch.org/docs/1.8.1/)
-- [v1.8.0](https://pytorch.org/docs/1.8.0/)
-- [v1.7.1](https://pytorch.org/docs/1.7.1/)
-- [v1.7.0](https://pytorch.org/docs/1.7.0/)
-- [v1.6.0](https://pytorch.org/docs/1.6.0/)
-- [v1.5.1](https://pytorch.org/docs/1.5.1/)
-- [v1.5.0](https://pytorch.org/docs/1.5.0/)
-- [v1.4.0](https://pytorch.org/docs/1.4.0/)
-- [v1.3.1](https://pytorch.org/docs/1.3.1/)
-- [v1.3.0](https://pytorch.org/docs/1.3.0/)
-- [v1.2.0](https://pytorch.org/docs/1.2.0/)
-- [v1.1.0](https://pytorch.org/docs/1.1.0/)
-- [v1.0.1](https://pytorch.org/docs/1.0.1/)
-- [v1.0.0](https://pytorch.org/docs/1.0.0/)
-- [v0.4.1](https://pytorch.org/docs/0.4.1/)
-- [v0.4.0](https://pytorch.org/docs/0.4.0/)
-- [v0.3.1](https://pytorch.org/docs/0.3.1/)
-- [v0.3.0](https://pytorch.org/docs/0.3.0/)
-- [v0.2.0](https://pytorch.org/docs/0.2.0/)
-- [v0.1.12](https://pytorch.org/docs/0.1.12/)
+  
 
 ## 1.3 主要贡献者的构成 (国家、区域和组织等)
 
@@ -174,11 +158,11 @@ https://www.assemblyai.com/blog/why-you-should-or-shouldnt-be-using-jax-in-2022/
 
 Pytorch（活跃项目）
 
-![fig.1-a](.\images\pytorch_fig1.png "Pytorch每月新增Star和Fork个数")
+![fig.1-a](https://pic.mathskiller909.com/img/20220629233256.png?x-oss-process=style/mathskiller "Pytorch每月新增Star和Fork个数")
 
 Upterm（归档项目）
 
-![fig.1-b](.\images\upterm_fig1.png "Upterm每月新增Star和Fork个数")
+![fig.1-b](https://pic.mathskiller909.com/img/20220629233307.png?x-oss-process=style/mathskiller "Upterm每月新增Star和Fork个数")
 
 > 注：由于Upterm项目每月新增Star和Fork个数最大值与最小值差异较大，为了绘制图表的美观，故使用对数坐标轴。
 
@@ -196,11 +180,11 @@ Upterm（归档项目）
 
 Pytorch（活跃项目）
 
-![fig.2-a](.\images\pytorch_fig2.png "Pytorch每月打开Issue和关闭Issue的个数")
+![fig.2-a](https://pic.mathskiller909.com/img/20220629233312.png?x-oss-process=style/mathskiller "Pytorch每月打开Issue和关闭Issue的个数")
 
 Upterm（归档项目）
 
-![fig.2-b](.\images\upterm_fig2.png "Upterm每月打开Issue和关闭Issue的个数")
+![fig.2-b](https://pic.mathskiller909.com/img/20220629233315.png?x-oss-process=style/mathskiller "Upterm每月打开Issue和关闭Issue的个数")
 
 由折线图的变化趋势可以看出：
 - Pytorch（活跃项目）的社区讨论热度是随着项目的发起而逐渐增长，达到峰值之后趋于稳定，截至目前该项目每月打开和关闭Issue个数基本都维持在数百条；
@@ -219,11 +203,11 @@ Upterm（归档项目）
 
 Pytorch（活跃项目）
 
-![fig.3-a](.\images\pytorch_fig3.png "Pytorch每月打开PR和合入PR的个数")
+![fig.3-a](https://pic.mathskiller909.com/img/20220629233319.png?x-oss-process=style/mathskiller "Pytorch每月打开PR和合入PR的个数")
 
 Upterm（归档项目）
 
-![fig.3-b](.\images\upterm_fig3.png "Upterm每月打开PR和合入PR的个数")
+![fig.3-b](https://pic.mathskiller909.com/img/20220629233321.png?x-oss-process=style/mathskiller "Upterm每月打开PR和合入PR的个数")
 
 由折线图的变化趋势可以看出：
 - Pytorch（活跃项目）每月打开PR的个数从项目的发起开始逐渐稳步上升，达到一定数量后在一定范围内波动，总体而言维持在1k左右的水平，表明参与该项目开发者的活跃程度长时间稳定在一定水平；而每月合入PR的个数，在项目发起的初始阶段基本与打开PR的个数呈现一样的趋势，待项目发起1年左右后到达稳定阶段后，每月合入PR的个数大幅减少，后续每月合入PR的个数仅占每月打开PR的个数的很小一部分；
@@ -237,11 +221,11 @@ Upterm（归档项目）
 
 Pytorch（活跃项目）
 
-![fig.4-a](.\images\pytorch_fig4.png "Pytorch活跃开发者数量变化趋势")
+![fig.4-a](https://pic.mathskiller909.com/img/20220629233332.png?x-oss-process=style/mathskiller "Pytorch活跃开发者数量变化趋势")
 
 Upterm（归档项目）
 
-![fig.4-b](.\images\upterm_fig4.png "Upterm活跃开发者数量变化趋势")
+![fig.4-b](https://pic.mathskiller909.com/img/20220629233324.png?x-oss-process=style/mathskiller "Upterm活跃开发者数量变化趋势")
 
 > 注：同样的原因，此处折线图使用对数坐标轴。另外还需特别说明，从数据库查询得到的数据该项目最大的每月活跃开发者可达5k，这与先前的调查分析存在出入，可能是数据库的原始数据存在问题。
 
