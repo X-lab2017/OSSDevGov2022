@@ -40,7 +40,7 @@
 
 该项目的技术类型如下：
 
-<img src="images\image-20220629171730691.png" alt="image-20220629171730691" style="zoom:50%;" />
+<img src="https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220629171730691.png" alt="image-20220629171730691" style="zoom:50%;" />
 
 ### 1.2 版本发布历史
 
@@ -95,19 +95,19 @@ Pop项目共1302位贡献者，主要的四名贡献者是Mark Otto、Chris Rebe
 
 Mark Otto工作于Github，是GitHub的首席设计和品牌架构师，是Bootstrap的创建者，目前居住于San Francisco, CA。
 
-<img src="images\image-20220630014537533.png" alt="image-20220630014537533" style="zoom:50%;" />
+<img src="https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630014537533.png" alt="image-20220630014537533" style="zoom:50%;" />
 
 - #### 2、Chris Rebert
 
 Chris Rebert是Bootstrap的团队核心成员，目前居住于SF Bay Area, California, USA。
 
-<img src="images\image-20220630014551587.png" alt="image-20220630014551587" style="zoom: 50%;" />
+<img src="https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630014551587.png" alt="image-20220630014551587" style="zoom: 50%;" />
 
 - #### 3、XhmikosR
 
 XhmikosR是Bootstrap的团队核心成员，居住于Greece
 
-<img src="images\image-20220630014611799.png" alt="image-20220630014611799" style="zoom:50%;" />
+<img src="https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630014611799.png" alt="image-20220630014611799" style="zoom:50%;" />
 
 ### 1.4 CI/CD的使用
 
@@ -132,11 +132,11 @@ XhmikosR是Bootstrap的团队核心成员，居住于Greece
 
 pop：
 
-![image-20220630020933784](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630020933784.png)
+![image-20220630020933784](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630020933784.png)
 
 bootstrap：
 
-![image-20220630021109734](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630021109734.png)
+![image-20220630021109734](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630021109734.png)
 
 这一项数据可以很好地反映项目的热度，很明显从刚开始bootstrap的热度就大大超过pop。前期，pop的star和fork数保持在1500~ 2000之间，而pop处于200~ 400之间。
 
@@ -144,11 +144,11 @@ bootstrap：
 
 #### 3.1.2 每月打开 Issue 和关闭 Issue 的个数
 
-pop:![image-20220630021954179](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630021954179.png)
+pop:![image-20220630021954179](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630021954179.png)
 
 bootstrap:
 
-![image-20220630022015737](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630022015737.png)
+![image-20220630022015737](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630022015737.png)
 
 这一项数据可以很好地反映项目的讨论热度，和项目能否长久保持热度息息相关。
 
@@ -160,11 +160,11 @@ bootstrap:
 
 pop:
 
-![image-20220630022830952](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630022830952.png)
+![image-20220630022830952](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630022830952.png)
 
 bootstrap:
 
-![image-20220630022904045](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630022904045.png)
+![image-20220630022904045](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630022904045.png)
 
 这一数据反映出开发者和管理者更新项目是否频繁。从数据中可以看出，pop的更新频数一直远远低于bootstrap，bootstrap可以一直做到稳定且频繁的更新。
 
@@ -172,11 +172,11 @@ bootstrap:
 
 pop：
 
-![image-20220630023539499](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630023539499.png)
+![image-20220630023539499](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630023539499.png)
 
 bootstrap：
 
-![image-20220630023619561](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630023619561.png)
+![image-20220630023619561](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630023619561.png)
 
 这一数据可以很好地反映项目对开发者的吸引程度。
 
@@ -190,11 +190,11 @@ bootstrap中开发者数量虽然经历过下降，但还是相对稳定的。
 
 pop：
 
-![image-20220630024331610](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630024331610.png)
+![image-20220630024331610](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630024331610.png)
 
 bootstrap：
 
-![image-20220630024358192](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630024358192.png)
+![image-20220630024358192](https://github.com/Vesperrrr/OSSDevGov2022/blob/finalwork/81-bootstrap/image-20220630024358192.png)
 
 这一数据可以反映开源项目的维护程度，可以看出pop的回复时长远远大于bootstrap。
 
