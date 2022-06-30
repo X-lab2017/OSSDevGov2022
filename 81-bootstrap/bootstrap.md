@@ -122,4 +122,86 @@ XhmikosR是Bootstrap的团队核心成员，居住于Greece
 **Travis CI：**提供持续集成服务（Continuous Integration，简称 CI）。它绑定 Github 上面的项目，只要项目仓库有新的Commit，就会自动抓取。然后，提供一个运行环境，执行测试，完成构建，还能部署到服务器。
 
 ​		在Boostrap中，没有找到`.travis.yml`文件
+## 二、项目历史轨迹分析
+见twbs-bootstrap.ipynb文件
+## 三、结合期中分析的归档项目，对比分析活跃/归档项目
 
+### 3.1 项目基础数据的变化趋势
+
+#### 3.1.1 每月新增Star和Fork的个数
+
+pop：
+
+![image-20220630020933784](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630020933784.png)
+
+bootstrap：
+
+![image-20220630021109734](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630021109734.png)
+
+这一项数据可以很好地反映项目的热度，很明显从刚开始bootstrap的热度就大大超过pop。前期，pop的star和fork数保持在1500~ 2000之间，而pop处于200~ 400之间。
+
+而且，pop的热度维持时间要短很多，在2016年4月以后就处于急降的状态；而bootstrap一直都能保持热度处于一个比较稳定的状态，甚至在后期还到达过峰值。
+
+#### 3.1.2 每月打开 Issue 和关闭 Issue 的个数
+
+pop:![image-20220630021954179](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630021954179.png)
+
+bootstrap:
+
+![image-20220630022015737](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630022015737.png)
+
+这一项数据可以很好地反映项目的讨论热度，和项目能否长久保持热度息息相关。
+
+从图中可以看出，pop和bootstrap的讨论热度差距很大，pop几乎处于个位数的状态，而bootstrap可以保持在三位数的讨论热度。
+
+且pop在2016年3月以后热度就下降明显，到了几乎没人讨论的状态；而bootstrap虽然后期讨论都没有很大的波动和提升，但数值一直都比较稳定，且讨论度依然不低。
+
+#### 3.1.3 每月打开 PR 和合入 PR 的个数
+
+pop:
+
+![image-20220630022830952](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630022830952.png)
+
+bootstrap:
+
+![image-20220630022904045](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630022904045.png)
+
+这一数据反映出开发者和管理者更新项目是否频繁。从数据中可以看出，pop的更新频数一直远远低于bootstrap，bootstrap可以一直做到稳定且频繁的更新。
+
+### 3.2 开发者变化数量趋势
+
+pop：
+
+![image-20220630023539499](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630023539499.png)
+
+bootstrap：
+
+![image-20220630023619561](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630023619561.png)
+
+这一数据可以很好地反映项目对开发者的吸引程度。
+
+pop在前期，尚可吸引很多开发者，但后期却经历了断崖式的下降，且趋近于0。
+
+bootstrap中开发者数量虽然经历过下降，但还是相对稳定的。
+
+即使bootstrap在后期经历了下降，但开发者数量仍旧可以保持在1000以上，这比pop初期的开发者数量还要高得多。
+
+### 3.3 其他方向
+
+pop：
+
+![image-20220630024331610](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630024331610.png)
+
+bootstrap：
+
+![image-20220630024358192](C:\Users\掼蛋\AppData\Roaming\Typora\typora-user-images\image-20220630024358192.png)
+
+这一数据可以反映开源项目的维护程度，可以看出pop的回复时长远远大于bootstrap。
+
+### 3.4 归档/活跃的主要原因
+
+- 从以上的分析对比可以看出来，bootstrap的热度远远超过pop，这是bootstrap可以活跃至今，而pop却归档的原因。
+- 团队的差异：pop是由facebook旗下产品paper的团队开发的，本身团队就是由一个小公司而来，后被facebook收购，并且产品不受facebook的重视。而bootstrap背靠twitter，可以得到很多的支持。
+- pop少有维护，且初创团队已解散，自然归档。而bootstrap拥有众多的赞助商和个人的赞助者，在金钱的的基础上，可以做到一直有人来维护，所以项目可以活跃。
+- 兼容性差异：bootstrap可以支持所有的主流浏览器，而pop只支持苹果系统。
+- 总结：开源项目想长久维持活跃状态和可持续性的发展，需要有一定的金钱和技术的支持。
