@@ -121,12 +121,12 @@ CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交�
 ### 1. 每月新增 Star 和 Frok 的个数
 
 <center>
-<img src = "picture/star_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/star_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-1 每月新增的 star 个数</center>
 
 <center>
-<img src = "picture/fork_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/fork_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-2 每月新增的 fork 个数</center>  
 &nbsp;
@@ -134,12 +134,12 @@ CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交�
 ### 2. 每月打开 issue 和关闭 issue 的个数
 
 <center>
-<img src = "picture/issue_open_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/issue_open_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-3 每月打开的 issue 个数</center>
 
 <center>
-<img src = "picture/issue_close_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/issue_close_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-4 每月关闭的 issue 个数</center>
 &nbsp;
@@ -147,19 +147,19 @@ CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交�
 ### 3. 每月打开 PR 和合并 PR 的个数
 
 <center>
-<img src = "picture/pr_open_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/pr_open_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-5 每月打开的 PR 个数</center>
 
 <center>
-<img src = "picture/pr_merge_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/pr_merge_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-6 每月合并的 PR 个数</center>
 
 ### 4. 每月在仓库中活跃（只要有日志产生就算）的不同开发者总数
 
 <center>
-<img src = "picture/active_developer_per_month.png"  width = "90%"  height = "90%">
+<img src = "./picture/active_developer_per_month.png"  width = "90%"  height = "90%">
 </center>
 <center>图2-7 每月活跃的不同开发者个数</center>
 
