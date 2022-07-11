@@ -119,19 +119,19 @@
 ## 二、项目的历史轨迹分析
 1. 每月新增 Star 和 Frok 的个数
 
-    ![Star&Fork](./1.png "Star&Fork")
+    ![Star&Fork](./img/1.png "Star&Fork")
 
 2. 每月打开 Issue 和关闭 Issue 的个数
 
-    ![Issue](./2.png "Issue")
+    ![Issue](./img/2.png "Issue")
 
 3. 每月打开 PR 和合入 PR 的个数
 
-    ![PR](./3.png "PR")
+    ![PR](./img/3.png "PR")
 
 4. 每月在仓库中活跃的不同开发者总数
 
-    ![Developers_num](./4.png "Developers_num")
+    ![Developers_num](./img/4.png "Developers_num")
 
 5. Issue 从打开到关闭的平均时长和中位数（单位：天）
 
