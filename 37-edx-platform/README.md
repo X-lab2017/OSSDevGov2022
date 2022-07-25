@@ -1,8 +1,8 @@
 # OSSDevGov2022
 
-### 期中作业要求
+### 期末作业要求
 
-https://shimo.im/docs/16q8MyXbRyTGNRk7
+https://shimo.im/docs/vU9we2qsVdkpJ1em/read
 
 分工：
 + 第一部分：魏如蓝
